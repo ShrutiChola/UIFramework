@@ -13,13 +13,8 @@ public class loginPage extends TestBase {
     }
 
     private void clickMockSubmit() {
-        mockSubmit.click();
+    	getWebelement(maxcrmdemo.loginpage.submitbutton).click();
     }
 
-    public void loginToMockPage(String strUserName, String strPassword) {
-        this.setMockUserName(strUserName);
-        this.setMockPassword(strPassword);
-        this.clickMockSubmit();
-    }
-
+    
 }

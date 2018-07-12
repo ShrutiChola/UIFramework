@@ -1,4 +1,4 @@
-package com.Allnewhybrid.testBase;
+package com.maximus.tx.MaxCRMDemo.testBase;
 
 	import java.io.File;
 	import java.io.IOException;
@@ -27,18 +27,7 @@ package com.Allnewhybrid.testBase;
 	import com.aventstack.extentreports.ExtentReports;
 	import com.aventstack.extentreports.ExtentTest;
 	import com.aventstack.extentreports.Status;
-	import com.Allnewhybrid.helper.browserConfiguration.BrowserType;
-	import com.Allnewhybrid.helper.browserConfiguration.ChromeBrowser;
-	import com.Allnewhybrid.helper.browserConfiguration.FirefoxBrowser;
-	import com.Allnewhybrid.helper.browserConfiguration.IExploreBrowser;
-	import com.Allnewhybrid.helper.browserConfiguration.config.ObjectReader;
-	import com.Allnewhybrid.helper.browserConfiguration.config.PropertyReader;
-	import com.Allnewhybrid.helper.excel.ExcelHelper;
-	import com.Allnewhybrid.helper.javaScript.JavaScriptHelper;
-	import com.Allnewhybrid.helper.logger.LoggerHelper;
-	import com.Allnewhybrid.helper.resource.ResourceHelper;
-	import com.Allnewhybrid.helper.wait.WaitHelper;
-	import com.Allnewhybrid.testUtils.ExtentManager;
+
 	/*import com.Allnewhybrid.helper.pageObject.LoginPage;
 	import com.Allnewhybrid.helper.pageObject.MyAccountPage;
 	import com.Allnewhybrid.helper.pageObject.NavigationMenu;
@@ -51,7 +40,7 @@ package com.Allnewhybrid.testBase;
 		public static ExtentReports extent;
 		public static ExtentTest test;
 		public WebDriver driver;
-		private Logger log = LoggerHelper.getLogger(TestBase.class);
+		//private Logger log = LoggerHelper.getLogger(TestBase.class);
 		public static File reportDirectery;
 		
 		@BeforeSuite
